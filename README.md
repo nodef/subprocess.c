@@ -5,7 +5,19 @@
 [![Sponsor](https://img.shields.io/badge/💜-sponsor-blueviolet)](https://github.com/sponsors/sheredom)
 
 A simple one header solution to launching processes and interacting with them
-for C/C++.
+for C/C++, by [Neil Henning](https://github.com/sheredom).
+
+## Installation
+
+Run:
+```bash
+$ npm i subprocess.c
+```
+
+And then include `subprocess.h` as follows:
+```c
+#include "node_modules/subprocess.c/subprocess.h"
+```
 
 ## Usage
 
@@ -244,3 +256,10 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
 For more information, please refer to <http://unlicense.org/>
+
+<br>
+<br>
+
+
+[![ORG](https://img.shields.io/badge/org-nodef-green?logo=Org)](https://nodef.github.io)
+![](https://ga-beacon.deno.dev/G-RC63DPBH3P:SH3Eq-NoQ9mwgYeHWxu7cw/github.com/nodef/subprocess.c)
