@@ -1,0 +1,27 @@
+{
+  "name": "subprocess.c",
+  "version": "1.2024.7",
+  "description": "🐜 Single header process launching solution for C and C++; Neil Henning (2017).",
+  "keywords": [
+    "c",
+    "library",
+    "process",
+    "subprocess",
+    "launch",
+    "spawn"
+  ],
+  "homepage": "https://github.com/nodef/subprocess.c#readme",
+  "bugs": {
+    "url": "https://github.com/nodef/subprocess.c/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodef/subprocess.c.git"
+  },
+  "license": "UNLICENSED",
+  "author": "wolfram77@gmail.com",
+  "main": "subprocess.h",
+  "scripts": {
+    "test": "bash build.sh test"
+  }
+}
