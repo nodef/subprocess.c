@@ -22,6 +22,7 @@ And then include `subprocess.h` as follows:
 
 ```c
 // main.c
+#define SUBPROCESS_IMPLEMENTATION
 #include "node_modules/subprocess.c/subprocess.h"
 
 int main() { /* ... */ }
@@ -38,6 +39,7 @@ You may also use a simpler approach:
 
 ```c
 // main.c
+#define SUBPROCESS_IMPLEMENTATION
 #include <subprocess.h>
 
 int main() { /* ... */ }
