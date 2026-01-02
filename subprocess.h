@@ -427,6 +427,9 @@ struct subprocess_s {
 #endif
 #endif
 
+// FEAT: Support implementation to be included in one source file. (@wolfram77)
+#ifdef SUBPROCESS_IMPLEMENTATION
+
 #if defined(_WIN32)
 subprocess_weak int subprocess_create_named_pipe_helper(void **rd, void **wr);
 int subprocess_create_named_pipe_helper(void **rd, void **wr) {
@@ -1189,6 +1192,8 @@ int subprocess_alive(struct subprocess_s *const process) {
 
   return is_alive;
 }
+
+#endif /* SUBPROCESS_IMPLEMENTATION */
 
 #if defined(__clang__)
 #if __has_warning("-Wunsafe-buffer-usage")
