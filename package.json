@@ -1,6 +1,6 @@
 {
   "name": "subprocess.c",
-  "version": "1.2024.9",
+  "version": "1.2024.10",
   "description": "🐜 Single header process launching solution for C and C++; Neil Henning (2017).",
   "keywords": [
     "c",
